@@ -60,8 +60,11 @@ export default function Page() {
       </header>
 
       <section id="top" className="hero" aria-labelledby="hero-title">
+        <video className="hero-video" autoPlay muted loop playsInline preload="metadata" aria-hidden="true">
+          <source src="/videos/background%20video.mp4" type="video/mp4" />
+        </video>
         <div className="hero-orbit orbit-one" /><div className="hero-orbit orbit-two" /><div className="hero-grid" />
-        <div className="hero-content"><div className="hero-kicker"><span /> A universe of possibility <span /></div><Image className="hero-logo" src="/infinity-universe-logo.png" alt="Infinity Universe logo" width={270} height={270} priority /><h1 id="hero-title">Your vision,<br /><em>our strategy.</em></h1><p>Two disciplines. One infinite perspective.<br />We turn ambition into meaningful momentum.</p><div className="hero-actions"><a className="gold-button" href="#consultancy">Explore Consultancy <ArrowUpRight aria-hidden="true" /></a><a className="ghost-button" href="#studio">Explore Studio <Play aria-hidden="true" /></a></div></div>
+        <div className="hero-content"><div className="hero-kicker"><span /> A universe of possibility <span /></div><h1 id="hero-title"><span>Your vision,</span><em>our strategy.</em></h1><p>Two disciplines. One infinite perspective.<br />We turn ambition into meaningful momentum.</p><div className="hero-actions"><a className="gold-button" href="#consultancy">Explore Consultancy <ArrowUpRight aria-hidden="true" /></a><a className="ghost-button" href="#studio">Explore Studio <Play aria-hidden="true" /></a></div></div>
         <div className="scroll-cue"><span /> Scroll to explore</div>
       </section>
 
