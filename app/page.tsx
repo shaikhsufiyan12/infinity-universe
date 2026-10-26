@@ -2,6 +2,7 @@ import Image from 'next/image'
 import {
   ArrowUpRight,
   BriefcaseBusiness,
+  CarFront,
   Camera,
   Check,
   Clapperboard,
@@ -27,6 +28,7 @@ const consultancyServices = [
   { icon: Landmark, title: 'Aadhaar Services', description: 'Eligible application assistance and guidance for available Aadhaar-related services.' },
   { icon: Globe2, title: 'Passport Services', description: 'Passport application assistance and careful document preparation.' },
   { icon: FileCheck2, title: 'Driving Licence Services', description: 'Learner’s and driving licence guidance, form assistance, and document preparation.' },
+  { icon: CarFront, title: 'Vehicle Insurance', description: 'Vehicle insurance guidance, policy assistance, and support with required documents.' },
   { icon: FileText, title: 'PAN Card Services', description: 'PAN application, correction, and related document assistance.' },
   { icon: PenTool, title: 'Application & Documentation', description: 'Help with forms, applications, certificates, and document preparation.' },
   { icon: BriefcaseBusiness, title: 'Business Registration', description: 'Assistance with GST, MSME/Udyam, and other applicable registrations.' },
@@ -64,7 +66,7 @@ export default function Page() {
           <source src="/videos/background%20video.mp4" type="video/mp4" />
         </video>
         <div className="hero-orbit orbit-one" /><div className="hero-orbit orbit-two" /><div className="hero-grid" />
-        <div className="hero-content"><div className="hero-kicker"><span /> A universe of possibility <span /></div><h1 id="hero-title"><span>Your vision,</span><em>our strategy.</em></h1><p>Two disciplines. One infinite perspective.<br />We turn ambition into meaningful momentum.</p><div className="hero-actions"><a className="gold-button" href="#consultancy">Explore Consultancy <ArrowUpRight aria-hidden="true" /></a><a className="ghost-button" href="#studio">Explore Studio <Play aria-hidden="true" /></a></div></div>
+        <div className="hero-content"><div className="hero-kicker"><span /> A universe of possibility <span /></div><h1 id="hero-title"><span>Universe of</span><em>possibility.</em></h1><p>Two disciplines. One infinite perspective.<br />We turn ambition into meaningful momentum.</p><div className="hero-actions"><a className="gold-button" href="#consultancy">Explore Consultancy <ArrowUpRight aria-hidden="true" /></a><a className="ghost-button" href="#studio">Explore Studio <Play aria-hidden="true" /></a></div></div>
         <div className="scroll-cue"><span /> Scroll to explore</div>
       </section>
 
