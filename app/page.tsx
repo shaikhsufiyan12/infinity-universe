@@ -15,8 +15,10 @@ import {
   MessageCircle,
   PenTool,
   Play,
+  Smartphone,
   ShieldCheck,
   Sparkles,
+  Star,
   Video,
   WandSparkles,
 } from 'lucide-react'
@@ -57,7 +59,7 @@ export default function Page() {
     <main>
       <header className="site-header">
         <a className="nav-logo" href="#top" aria-label="Infinity Universe home"><Image src="/infinity-universe-logo.png" alt="Infinity Universe golden cosmic infinity emblem" width={54} height={54} /><span><strong>INFINITY</strong><small>UNIVERSE</small></span></a>
-        <nav aria-label="Main navigation"><a href="#consultancy">Consultancy</a><a href="#studio">Studio</a><a href="#portfolio">Portfolio</a><a href="#contact">Contact</a></nav>
+        <nav aria-label="Main navigation"><a href="#consultancy">Consultancy</a><a href="#studio">Studio</a><a href="#products">Products</a><a href="#contact">Contact</a></nav>
         <a className="nav-cta" href={whatsapp('Hello Infinity Universe, I would like to discuss a project.')}>Start a conversation <ArrowUpRight aria-hidden="true" /></a>
       </header>
 
@@ -74,11 +76,41 @@ export default function Page() {
 
       <section id="studio" className="service-section studio-section"><div className="container"><SectionHeader eyebrow="∞ / Infinity Studio" title="Make your moment impossible to forget." copy="A creative studio for brands, people, and stories that deserve to be seen in a different light." /><div className="studio-intro"><div><span className="eyebrow">The creative advantage</span><h3>From first frame<br /><em>to lasting feeling.</em></h3></div><p>We bring strategy, cinematic craft, and a sharp eye for detail to every production — whether it is a launch, a celebration, or the next scroll-stopping idea.</p></div><div className="service-grid studio-grid">{studioServices.map(({ icon: Icon, title, description }, index) => <article className="service-card" key={title}><div className="card-icon"><Icon aria-hidden="true" /></div><span className="card-number">STUDIO / 0{index + 1}</span><h3>{title}</h3><p>{description}</p><WhatsAppButton label="Enquire now" message={`Hello Infinity Studio, I am interested in ${title}. I would like to discuss my creative project.`} /></article>)}<article className="service-card coming-card"><div className="infinity-mark">∞</div><span className="card-number">STUDIO / 06</span><h3>More Coming Soon</h3><p>New creative services are coming soon.</p><WhatsAppButton label="Stay informed" message="Hello Infinity Studio, I would like to know about your upcoming creative services." /></article></div><a className="gold-button centered-button" href={whatsapp('Hello Infinity Studio, I would like to book a shoot. Please share your availability and process.')}>Book a Shoot <ArrowUpRight aria-hidden="true" /></a></div></section>
 
-      <section id="portfolio" className="portfolio-section"><div className="container"><SectionHeader eyebrow="Selected possibilities" title="A canvas waiting for your story." copy="A considered preview of the worlds we can build together." /><div className="portfolio-note"><Sparkles /> Portfolio Preview — Sample Placeholders <span>Replace with real projects as they arrive</span></div><div className="portfolio-grid"><div className="portfolio-tile tile-wide"><div><span>01 / Campaigns</span><h3>Bold ideas,<br />beautifully framed.</h3></div></div><div className="portfolio-tile tile-blue"><div><span>02 / Events</span><h3>Moments<br />in motion.</h3></div></div><div className="portfolio-tile tile-gold"><div><span>03 / Photography</span><h3>Details worth<br />remembering.</h3></div></div><div className="portfolio-tile tile-dark"><div><span>04 / Social Content</span><h3>Made to<br />stop the scroll.</h3></div></div></div></div></section>
+      <section id="products" className="product-section" aria-labelledby="products-title">
+        <div className="container product-container">
+          <div className="section-header product-header">
+            <span className="eyebrow">∞ / Infinity Universe Products</span>
+            <h2 id="products-title">Made to make an impression.</h2>
+            <p>Thoughtful products from our universe, designed to turn good ideas into memorable experiences.</p>
+          </div>
+          <article className="product-showcase" aria-labelledby="infivers-title">
+            <div className="product-artwork">
+              <Image src="/infivers-review-design.jpg" alt="Infivers Google review design inviting customers to tap their phone to leave a review" width={900} height={900} />
+              <span className="product-artwork-caption"><Sparkles aria-hidden="true" /> Introducing our first product</span>
+            </div>
+            <div className="product-details">
+              <span className="product-index">PRODUCT 01 <span> / </span> INFINITY ORIGINALS</span>
+              <h3 id="infivers-title">Infivers<span>.</span></h3>
+              <p className="product-description">A thoughtful, tap-to-review experience that gives your customers a simple, branded way to leave a Google review.</p>
+              <div className="product-features">
+                <div className="product-feature">
+                  <span className="product-feature-icon"><Smartphone aria-hidden="true" /></span>
+                  <div><h4>One simple tap</h4><p>Invite customers to tap their phone and leave a review.</p></div>
+                </div>
+                <div className="product-feature">
+                  <span className="product-feature-icon"><Star aria-hidden="true" /></span>
+                  <div><h4>Designed to be remembered</h4><p>A polished black-and-gold design, powered by Infinity Universe.</p></div>
+                </div>
+              </div>
+              <a className="gold-button product-cta" href={whatsapp('Hello Infinity Universe, I would like to know more about Infivers.')}>Discover Infivers <ArrowUpRight aria-hidden="true" /></a>
+            </div>
+          </article>
+        </div>
+      </section>
 
       <section id="contact" className="contact-section"><div className="container contact-wrap"><div><span className="eyebrow">Let’s make it happen</span><h2>Have a vision<br /><em>in mind?</em></h2><p>Tell us where you want to go. We’ll help you find the next step.</p></div><div className="contact-actions"><div className="collab-card"><span className="eyebrow">Work with us</span><h3>Bring your expertise<br /><em>into our universe.</em></h3><p>Interested in collaborating, partnering, or joining a project? We would love to hear from you.</p><WhatsAppButton label="Talk to our team" message="Hello Infinity Universe, I am interested in working with you. I would like to discuss a collaboration opportunity." /></div><a className="contact-link" href="mailto:infinityconsultancy12@gmail.com" aria-label="Email Infinity Universe"><span className="contact-line"><Mail aria-hidden="true" /><span>infinityconsultancy12@gmail.com</span><ArrowUpRight aria-hidden="true" className="external-link-icon" /></span><span className="contact-line secondary"><Camera aria-hidden="true" /><span>@infinity_universe_12</span></span></a></div></div></section>
 
-      <footer><div className="footer-top"><a className="nav-logo" href="#top"><Image src="/infinity-universe-logo.png" alt="Infinity Universe logo" width={58} height={58} /><span><strong>INFINITY</strong><small>UNIVERSE</small></span></a><p>Your vision, our strategy.</p><div className="footer-links"><a href="#consultancy">Consultancy</a><a href="#studio">Studio</a><a href="#portfolio">Portfolio</a><a href="mailto:infinityconsultancy12@gmail.com">Email us</a></div></div><div className="footer-bottom"><span>© 2025 Infinity Universe. All rights reserved.</span><span className="footer-contact"><MapPin /> India <a href="https://wa.me/919409181677">+91 94091 81677</a></span></div></footer><a className="floating-whatsapp" href={whatsapp('Hello Infinity Universe, I would like to enquire about your services.')} target="_blank" rel="noreferrer" aria-label="Chat with Infinity Universe on WhatsApp"><MessageCircle /></a>
+      <footer><div className="footer-top"><a className="nav-logo" href="#top"><Image src="/infinity-universe-logo.png" alt="Infinity Universe logo" width={58} height={58} /><span><strong>INFINITY</strong><small>UNIVERSE</small></span></a><p>Your vision, our strategy.</p><div className="footer-links"><a href="#consultancy">Consultancy</a><a href="#studio">Studio</a><a href="#products">Products</a><a href="mailto:infinityconsultancy12@gmail.com">Email us</a></div></div><div className="footer-bottom"><span>© 2025 Infinity Universe. All rights reserved.</span><span className="footer-contact"><MapPin /> India <a href="https://wa.me/919409181677">+91 94091 81677</a></span></div></footer><a className="floating-whatsapp" href={whatsapp('Hello Infinity Universe, I would like to enquire about your services.')} target="_blank" rel="noreferrer" aria-label="Chat with Infinity Universe on WhatsApp"><MessageCircle /></a>
     </main>
   )
 }
