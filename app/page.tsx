@@ -84,7 +84,7 @@ export default function Page() {
       <section id="products" className="product-section" aria-labelledby="products-title">
         <div className="container product-container">
           <div className="section-header product-header">
-            <span className="eyebrow">Infinity Products</span>
+            <span className="eyebrow">Infinity Universe Products</span>
             <h2 id="products-title">Make Your Business Easier to Discover, Review &amp; Trust.</h2>
             <p>A smarter way to connect your customers with your business on Google.</p>
           </div>
