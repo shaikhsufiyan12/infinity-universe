@@ -118,7 +118,7 @@ export default function Page() {
                   <div><h4>Two sizes to choose from</h4><p>Available in 3 × 3 inch and 5 × 5 inch sizes for your counter, checkout, or reception desk.</p></div>
                 </div>
               </div>
-              <a className="gold-button product-cta" href={whatsapp('Hello Infinity Universe, I would like to know more about Infivers.')}>Discover Infivers <ArrowUpRight aria-hidden="true" /></a>
+              <a className="gold-button product-cta" href={whatsapp('Hello Infinity Universe, I would like to order INFIVERS at the introductory price of ₹2,000. Please help me choose a size and complete my order.')} target="_blank" rel="noreferrer" aria-label="Buy INFIVERS for ₹2,000 via WhatsApp">Buy INFIVERS <ArrowUpRight aria-hidden="true" /></a>
               <div className="product-custom-option">
                 <span className="product-custom-mark" aria-hidden="true">∞</span>
                 <div className="product-custom-copy">
