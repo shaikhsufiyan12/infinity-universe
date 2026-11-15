@@ -91,7 +91,7 @@ export default function Page() {
             <div className="product-details">
               <span className="product-index">PRODUCT 01 <span> / </span> INFINITY UNIVERSE</span>
               <h3 id="infivers-title">INFIVERS<span>.</span></h3>
-              <p className="product-description">Powered by Infinity Universe, INFIVERS uses advanced NFC technology to connect your customers to your Google Review page. No searching. No complicated steps. Just one tap closer to building your online reputation.</p>
+              <p className="product-description">Powered by Infinity Universe, INFIVERS makes it easy to connect your customers to your Google Review page. No searching. No complicated steps. Just one tap closer to building your online reputation.</p>
               <div className="product-pricing" aria-label="Introductory price 2,000 rupees, reduced from 3,500 rupees. Save 1,500 rupees, approximately 43 percent off.">
                 <span className="product-price-label">Introductory price</span>
                 <div className="product-price">
@@ -107,7 +107,7 @@ export default function Page() {
                 </div>
                 <div className="product-feature">
                   <span className="product-feature-icon"><Check aria-hidden="true" /></span>
-                  <div><h4>Broad smartphone compatibility</h4><p>Compatible with 95%+ of NFC-enabled iPhone and Android smartphones.</p></div>
+                  <div><h4>Broad smartphone compatibility</h4><p>Compatible with 95%+ of iPhone and Android smartphones.</p></div>
                 </div>
                 <div className="product-feature">
                   <span className="product-feature-icon"><ShieldCheck aria-hidden="true" /></span>
