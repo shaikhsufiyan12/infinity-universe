@@ -86,12 +86,20 @@ export default function Page() {
           <article className="product-showcase" aria-labelledby="infivers-title">
             <div className="product-artwork">
               <Image src="/infivers-review-design.jpg" alt="Infivers Google review design inviting customers to tap their phone to leave a review" width={900} height={900} />
-              <span className="product-artwork-caption"><Sparkles aria-hidden="true" /> Introducing our first product</span>
+              <span className="product-artwork-caption"><Sparkles aria-hidden="true" /> Launch offer · save ~43%</span>
             </div>
             <div className="product-details">
               <span className="product-index">PRODUCT 01 <span> / </span> INFINITY ORIGINALS</span>
               <h3 id="infivers-title">Infivers<span>.</span></h3>
               <p className="product-description">A thoughtful, tap-to-review experience that gives your customers a simple, branded way to leave a Google review.</p>
+              <div className="product-pricing" aria-label="Introductory price 2,000 rupees, reduced from 3,500 rupees. Save 1,500 rupees, approximately 43 percent off.">
+                <span className="product-price-label">Introductory price</span>
+                <div className="product-price">
+                  <span className="product-sale-price">₹2,000</span>
+                  <del className="product-original-price">₹3,500</del>
+                </div>
+                <span className="product-savings">Save ₹1,500 <span aria-hidden="true">·</span> ~43% off</span>
+              </div>
               <div className="product-features">
                 <div className="product-feature">
                   <span className="product-feature-icon"><Smartphone aria-hidden="true" /></span>
