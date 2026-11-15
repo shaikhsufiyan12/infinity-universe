@@ -70,7 +70,7 @@ export default function Page() {
         <div className="hero-orbit orbit-one" /><div className="hero-orbit orbit-two" /><div className="hero-grid" />
         <div className="hero-content"><div className="hero-kicker"><span /> A universe of possibility <span /></div><h1 id="hero-title"><span>Universe of</span><em>possibility.</em></h1></div>
         <nav className="hero-actions" aria-label="Explore Infinity Universe">
-          <a className="gold-button" href="#consultancy">Explore Consultancy <ArrowUpRight aria-hidden="true" /></a>
+          <a className="ghost-button" href="#consultancy">Explore Consultancy <ArrowUpRight aria-hidden="true" /></a>
           <a className="ghost-button" href="#studio">Explore Studio <Play aria-hidden="true" /></a>
           <a className="ghost-button" href="#products">Explore Products <Sparkles aria-hidden="true" /></a>
         </nav>
