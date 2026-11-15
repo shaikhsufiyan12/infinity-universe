@@ -79,19 +79,19 @@ export default function Page() {
       <section id="products" className="product-section" aria-labelledby="products-title">
         <div className="container product-container">
           <div className="section-header product-header">
-            <span className="eyebrow">∞ / Infinity Universe Products</span>
-            <h2 id="products-title">Made to make an impression.</h2>
-            <p>Thoughtful products from our universe, designed to turn good ideas into memorable experiences.</p>
+            <span className="eyebrow">∞ / Infinity Universe presents</span>
+            <h2 id="products-title">Make Your Business Easier to Discover, Review &amp; Trust.</h2>
+            <p>A smarter way to connect your customers with your business on Google.</p>
           </div>
           <article className="product-showcase" aria-labelledby="infivers-title">
             <div className="product-artwork">
-              <Image src="/infivers-review-design.jpg" alt="Infivers Google review design inviting customers to tap their phone to leave a review" width={900} height={900} />
+              <Image src="/infivers-review-design.jpg" alt="INFIVERS premium review card design inviting customers to tap their phone and leave a Google review" width={900} height={900} />
               <span className="product-artwork-caption"><Sparkles aria-hidden="true" /> Launch offer · save ~43%</span>
             </div>
             <div className="product-details">
-              <span className="product-index">PRODUCT 01 <span> / </span> INFINITY ORIGINALS</span>
-              <h3 id="infivers-title">Infivers<span>.</span></h3>
-              <p className="product-description">A thoughtful, tap-to-review experience that gives your customers a simple, branded way to leave a Google review.</p>
+              <span className="product-index">PRODUCT 01 <span> / </span> INFINITY UNIVERSE</span>
+              <h3 id="infivers-title">INFIVERS<span>.</span></h3>
+              <p className="product-description">Powered by Infinity Universe, INFIVERS uses advanced NFC technology to connect your customers to your Google Review page. No searching. No complicated steps. Just one tap closer to building your online reputation.</p>
               <div className="product-pricing" aria-label="Introductory price 2,000 rupees, reduced from 3,500 rupees. Save 1,500 rupees, approximately 43 percent off.">
                 <span className="product-price-label">Introductory price</span>
                 <div className="product-price">
@@ -100,14 +100,22 @@ export default function Page() {
                 </div>
                 <span className="product-savings">Save ₹1,500 <span aria-hidden="true">·</span> ~43% off</span>
               </div>
-              <div className="product-features">
+              <div className="product-features" aria-label="INFIVERS product features">
                 <div className="product-feature">
                   <span className="product-feature-icon"><Smartphone aria-hidden="true" /></span>
-                  <div><h4>One simple tap</h4><p>Invite customers to tap their phone and leave a review.</p></div>
+                  <div><h4>Instant connection</h4><p>One tap opens your Google Review page, ready for customers to share their experience.</p></div>
+                </div>
+                <div className="product-feature">
+                  <span className="product-feature-icon"><Check aria-hidden="true" /></span>
+                  <div><h4>Broad smartphone compatibility</h4><p>Compatible with 95%+ of NFC-enabled iPhone and Android smartphones.</p></div>
+                </div>
+                <div className="product-feature">
+                  <span className="product-feature-icon"><ShieldCheck aria-hidden="true" /></span>
+                  <div><h4>Premium glossy acrylic</h4><p>High-quality acrylic with a glossy finish and a professional look for your business.</p></div>
                 </div>
                 <div className="product-feature">
                   <span className="product-feature-icon"><Star aria-hidden="true" /></span>
-                  <div><h4>Designed to be remembered</h4><p>A polished black-and-gold design, powered by Infinity Universe.</p></div>
+                  <div><h4>Two sizes to choose from</h4><p>Available in 3 × 3 inch and 5 × 5 inch sizes for your counter, checkout, or reception desk.</p></div>
                 </div>
               </div>
               <a className="gold-button product-cta" href={whatsapp('Hello Infinity Universe, I would like to know more about Infivers.')}>Discover Infivers <ArrowUpRight aria-hidden="true" /></a>
@@ -124,6 +132,17 @@ export default function Page() {
               </div>
             </div>
           </article>
+          <div className="product-why">
+            <div className="product-why-heading">
+              <span className="eyebrow">Why INFIVERS?</span>
+              <h3>Your business deserves to be <em>seen, heard and trusted.</em></h3>
+            </div>
+            <div className="product-why-copy">
+              <p>Every customer interaction is an opportunity to strengthen your digital presence. INFIVERS bridges the gap between offline customer experiences and your online reputation, making it easier for satisfied customers to share genuine feedback.</p>
+              <p className="product-mantra">One Tap. One Experience. <span>Endless Possibilities.</span></p>
+              <span className="product-signoff">INFINITY UNIVERSE <span>— “UNIVERSE OF POSSIBILITY”.</span></span>
+            </div>
+          </div>
         </div>
       </section>
 
