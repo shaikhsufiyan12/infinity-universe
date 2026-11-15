@@ -123,10 +123,10 @@ export default function Page() {
                 <span className="product-custom-mark" aria-hidden="true">∞</span>
                 <div className="product-custom-copy">
                   <span className="product-custom-label">Make it yours</span>
-                  <h4>Customise your own design</h4>
+                  <h4>Customize your own design</h4>
                   <p>Have your own colours, logo, or look in mind? Let’s create a custom Infivers design for your brand.</p>
-                  <a className="product-custom-link" href={whatsapp('Hello Infinity Universe, I am interested in a custom Infivers design. I would like to personalise it for my brand.')}>
-                    <MessageCircle aria-hidden="true" /> Customise on WhatsApp <ArrowUpRight aria-hidden="true" />
+                  <a className="product-custom-link" href={whatsapp('Hello Infinity Universe, I am interested in a custom Infivers design. I would like to personalize it for my brand.')}>
+                    <MessageCircle aria-hidden="true" /> Customize on WhatsApp <ArrowUpRight aria-hidden="true" />
                   </a>
                 </div>
               </div>
