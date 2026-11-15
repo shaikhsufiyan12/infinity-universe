@@ -111,8 +111,8 @@ footer { padding:48px 4.5vw 25px; background:#03050a; }.footer-top,.footer-botto
   .hero-content { width:min(100% - 36px, 620px); padding-top:34px; }
   .hero h1 { font-size:clamp(48px, 11vw, 72px); margin-top:20px; }
   .hero p { margin:24px 0 28px; }
-  .hero-actions { width:100%; max-width:440px; }
-  .gold-button,.ghost-button { flex:1; min-width:0; }
+  .hero-actions { width:100%; max-width:440px; flex-wrap:wrap; }
+  .hero-actions .gold-button,.hero-actions .ghost-button { flex:1 1 190px; min-width:0; }
 }
 @media (max-width:500px) {
   .hero-content { width:min(100% - 32px, 360px); padding-top:20px; }
