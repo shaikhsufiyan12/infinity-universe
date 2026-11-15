@@ -111,6 +111,17 @@ export default function Page() {
                 </div>
               </div>
               <a className="gold-button product-cta" href={whatsapp('Hello Infinity Universe, I would like to know more about Infivers.')}>Discover Infivers <ArrowUpRight aria-hidden="true" /></a>
+              <div className="product-custom-option">
+                <span className="product-custom-mark" aria-hidden="true">∞</span>
+                <div className="product-custom-copy">
+                  <span className="product-custom-label">Make it yours</span>
+                  <h4>Customise your own design</h4>
+                  <p>Have your own colours, logo, or look in mind? Let’s create a custom Infivers design for your brand.</p>
+                  <a className="product-custom-link" href={whatsapp('Hello Infinity Universe, I am interested in a custom Infivers design. I would like to personalise it for my brand.')}>
+                    <MessageCircle aria-hidden="true" /> Customise on WhatsApp <ArrowUpRight aria-hidden="true" />
+                  </a>
+                </div>
+              </div>
             </div>
           </article>
         </div>

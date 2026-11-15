@@ -62,6 +62,15 @@ footer { padding:48px 4.5vw 25px; background:#03050a; }.footer-top,.footer-botto
 .product-feature h4 { margin:0 0 5px; color:#f0ede6; font-size:12px; font-weight:600; letter-spacing:.035em; }
 .product-feature p { margin:0; color:#888d9b; font-size:11px; line-height:1.65; }
 .product-cta { width:max-content; min-width:205px; }
+.product-custom-option { display:flex; align-items:flex-start; gap:17px; margin-top:32px; padding:22px; border:1px solid rgba(215,170,85,.28); background:linear-gradient(125deg,rgba(215,170,85,.09),rgba(8,10,16,.48) 66%); }
+.product-custom-mark { flex:none; color:var(--gold-light); font-family:'Playfair Display',serif; font-size:39px; line-height:1; text-shadow:0 0 22px rgba(215,170,85,.38); }
+.product-custom-copy { min-width:0; }
+.product-custom-label { color:var(--gold); font-size:9px; font-weight:600; letter-spacing:.16em; text-transform:uppercase; }
+.product-custom-copy h4 { margin:7px 0 7px; color:#f0ede6; font-family:'Playfair Display',serif; font-size:20px; font-weight:500; line-height:1.2; }
+.product-custom-copy p { margin:0; color:#a2a5b0; font-size:11px; line-height:1.7; }
+.product-custom-link { display:inline-flex; align-items:center; gap:8px; margin-top:15px; color:var(--gold-light); font-size:10px; font-weight:600; letter-spacing:.1em; text-transform:uppercase; transition:color .2s ease; }
+.product-custom-link:hover { color:#fff; }
+.product-custom-link svg { width:14px; height:14px; }
 .hero-content { width:min(100% - 40px, 760px); padding-top:clamp(28px, 5vh, 58px); }
 .hero-kicker { animation:hero-rise .8s cubic-bezier(.22,1,.36,1) both; }
 .hero h1 { max-width:760px; margin:24px 0 0; font-size:clamp(54px, 8vw, 104px); line-height:.94; }
